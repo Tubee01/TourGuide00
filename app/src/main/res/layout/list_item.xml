@@ -1,0 +1,69 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/image"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="blabla"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/default_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/name_text_view"
+            android:gravity="top"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/white"
+            tools:text="blabla" />
+
+
+    <TextView
+        android:id="@+id/address_a_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blablas"
+        android:layout_marginStart="20dp"
+        android:layout_above="@+id/websiteAddress_text_view"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/websiteAddress_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blablas"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/address_a_text_view"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
+</RelativeLayout>

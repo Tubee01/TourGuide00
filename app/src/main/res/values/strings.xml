@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Graz Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Do_and_see">Do and See</string>
+    <string name="dining">Dining</string>
+    <string name="bars_nightlife">Bars and Nightlife</string>
+    <string name="accommodations">Accommodations</string>
+
+    <!-- Places -->
+    <string name="murinsel">Murinsel</string>
+    <string name="murinselText"> The New York artist Vito Acconci designed a steel grid structure in the shape of a half-opened shell.
+        The open part – an amphitheatre for performances but also a resting place for sun-seekers.
+        The covered part – a very trendy café. </string>
+    <string name="murinselAddress">Mur 1</string>
+   <string name="murinselWeb">www.murinselgraz.at</string>
+    <string name="kunsthaus">Armoury Museum and Kunsthaus</string>
+    <string name="kunsthausAddress">Herrengasse 16.</string>
+    <string name="kunsthausText">Two great museums reflecting the historical and modern art in Graz.
+        The Armoury museum is the world’s largest collection of medieval arms and armous.</string>
+    <string name="kunsthausWeb">www.museum-joanneum.at/en</string>
+    <string name="eggenbergPalace">Eggenberg Palace</string>
+    <string name="eggenbergPalaceText">A journey into the Cosmos.
+        A building portraying time. That is how one could describe Schloss Eggenberg, erected in 1625-56.</string>
+    <string name="eggenbergPalaceAddress">Eggenberger Alle 90</string>
+    <string name="eggenbergWeb">www.graztourismus.at/en/see-and-do/sightseeing/sights/eggenberg-palace_sh-1199</string>
+    <!-- Dining -->
+    <string name="aiolaUpstairs">Aiola Upstairs</string>
+    <string name="aiolaAddress">Schlossberg 2</string>
+    <string name="aiolaWeb">www.aiola.at</string>
+    <string name="aiolaText">An amazing Restaurant on the Schlossberg with an exhilarating view over the rooftops.
+        A breathtaking view, an ocean of fragrance.</string>
+    <string name="speisesaal">Speisesaal</string>
+    <string name="speisesaalAddress">Grieskai 4–8</string>
+    <string name="speisesaalWeb">www.speisesaal.at</string>
+    <string name="speisesaalText">Speisesaal whets the appetite for dishes as international as a frequent flier account. Reservations recommended!</string>
+    <string name="magnolia">Magnolia</string>
+    <string name="magnoliaAddress">Schönaugasse 53</string>
+    <string name="magnoliaWeb">www.augartenhotel.at</string>
+    <string name="magnoliaText">Here guests are both enchanted and surprised by a mixture of Austrian and
+        Mediterranean delicacies, interspersed with occasional tasters.</string>
+    <!-- Bars & Nightlife -->
+    <string name="threeMonkeys">Three Monkeys</string>
+    <string name="threeMonkeysAddress">Elisabethstraße 31</string>
+    <string name="threeMonkeysWeb">www.three-monkeys.at</string>
+    <string name="threeMonkeysText">Three Monkeys is located in Elisabethstraße in the university quarter, a popular area for young people to meet.
+        In this legendary basement pub the guests are 21 and over, a mix of „young but grown up".</string>
+    <string name="ppc">Ppc</string>
+    <string name="ppcAddress">Neubaugasse 6</string>
+    <string name="ppcWeb">www.facebook.com/ppcgraz</string>
+    <string name="ppcText">The ppc (project pop culture) with its 300 events per year is THE leading venue for pop culture in Graz.
+        Internationally famed groups perform on two floors in the genres of „Rock“, „Indie“, „Electronic“ and „HipHop“</string>
+    <string name="cafeBarOrange">Café Bar Orange</string>
+    <string name="cafeBarOrangeAddress">Elisabethstraße 30</string>
+    <string name="cafeBarOrangeWeb">www.cafe-bar-orange.at</string>
+    <string name="cafeBarOrangeText">or years now the „Orange“ has been known
+        for its international DJs, as well as for the combination of
+        a cool cafe (breakfast served until 4 PM) and a great club.</string>
+    <!-- Accommodations -->
+    <string name="hotelWiesler">Hotel Wiesler</string>
+    <string name="hotelWieslerAddress">Grieskai 4-8</string>
+    <string name="hotelWieslerWebb">www.hotelwiesler.com</string>
+    <string name="hotelWieslerText">"A hotel is not simply a hotel."
+        Some are happy with room and board while others expect a little more than a place to sleep with bathroom in a central position.But They have the right room for everyone.</string>
+    <string name="hotelParadies">Hotel Paradies</string>
+    <string name="hotelParadiesAddress">Straßgangerstraße 380b</string>
+    <string name="hotelParadiesWeb">www.hotelparadies.at</string>
+    <string name="hotelParadiesText">12 seminar rooms designed for flexibility, 83 comfortable rooms and an in-house seminar assistant… and above all, a can-do attitude - the motto at
+        the Paradies is “nothing is impossible”, guaranteeing the success of your event. </string>
+    <string name="palaisHotel">Palais Hotel Erzherzog Johann</string>
+    <string name="palaisHotelAddress">Sackstrasse 3-5</string>
+    <string name="palaisHotelWeb">www.erzherzog-johann.com</string>
+    <string name="palaisText">This hotel offers 150 years of tradition. The hotel combines style, ease and comfort reflected in the individually arranged rooms and suites of the former baroque palace</string>
+
+</resources>
