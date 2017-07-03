@@ -11,7 +11,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 public class DoAndSeeFragment extends Fragment {
-    public DoAndSeeFragment(){
+    public DoAndSeeFragment() {
         // Required empty public constructor
     }
 
@@ -23,9 +23,9 @@ public class DoAndSeeFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list_view, container, false);
 
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place(R.drawable.murinsel_place,R.string.murinsel,R.string.murinselText,R.string.murinselAddress,R.string.murinselWeb));
-        places.add(new Place(R.drawable.kunsthaus_place,R.string.kunsthaus,R.string.kunsthausText,R.string.kunsthausAddress,R.string.kunsthausWeb));
-        places.add(new Place(R.drawable.eggenber_palace,R.string.eggenbergPalace,R.string.eggenbergPalaceText,R.string.eggenbergPalaceAddress,R.string.eggenbergWeb));
+        places.add(new Place(R.drawable.murinsel_place, R.string.murinsel, R.string.murinselText, R.string.murinselAddress, R.string.murinselWeb));
+        places.add(new Place(R.drawable.kunsthaus_place, R.string.kunsthaus, R.string.kunsthausText, R.string.kunsthausAddress, R.string.kunsthausWeb));
+        places.add(new Place(R.drawable.eggenber_palace, R.string.eggenbergPalace, R.string.eggenbergPalaceText, R.string.eggenbergPalaceAddress, R.string.eggenbergWeb));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.listBackground);
 
@@ -34,7 +34,7 @@ public class DoAndSeeFragment extends Fragment {
         listView.setAdapter(adapter);
 
 
-    return rootView;
+        return rootView;
     }
 }
 

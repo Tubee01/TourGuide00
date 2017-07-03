@@ -6,13 +6,14 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-public class TourGuideFragmentPagerAdapter  extends FragmentPagerAdapter {
-     private Context mContext;
+public class TourGuideFragmentPagerAdapter extends FragmentPagerAdapter {
+    private Context mContext;
 
     public TourGuideFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
-        mContext= context;
+        mContext = context;
     }
+
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -21,10 +22,11 @@ public class TourGuideFragmentPagerAdapter  extends FragmentPagerAdapter {
             return new DiningFragment();
         } else if (position == 2) {
             return new BarsAndNightlifeFragment();
-        } else{
+        } else {
             return new AccommodationsFragment();
         }
     }
+
     @Override
     public int getCount() {
         return 4;
@@ -33,13 +35,13 @@ public class TourGuideFragmentPagerAdapter  extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         // Generate title based on item position
-        if (position == 0){
+        if (position == 0) {
             return mContext.getString(R.string.Do_and_see);
-        }else if (position == 1){
+        } else if (position == 1) {
             return mContext.getString(R.string.dining);
-        }else if (position == 2){
+        } else if (position == 2) {
             return mContext.getString(R.string.bars_nightlife);
-        }else{
+        } else {
             return mContext.getString(R.string.accommodations);
         }
     }

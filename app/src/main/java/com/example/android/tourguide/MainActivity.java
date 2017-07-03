@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
-        TourGuideFragmentPagerAdapter adapter = new TourGuideFragmentPagerAdapter(getSupportFragmentManager(),MainActivity.this);
+        TourGuideFragmentPagerAdapter adapter = new TourGuideFragmentPagerAdapter(getSupportFragmentManager(), MainActivity.this);
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);
 

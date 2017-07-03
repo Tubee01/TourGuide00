@@ -12,9 +12,10 @@ import java.util.ArrayList;
 
 
 public class BarsAndNightlifeFragment extends Fragment {
-    public  BarsAndNightlifeFragment () {
+    public BarsAndNightlifeFragment() {
         // Required empty public constructor
     }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -22,9 +23,9 @@ public class BarsAndNightlifeFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list_view, container, false);
 
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place(R.drawable.threemonkeys_bar,R.string.threeMonkeys,R.string.threeMonkeysText,R.string.threeMonkeysAddress,R.string.threeMonkeysWeb));
-        places.add(new Place(R.drawable.cafebarorange_nightlife,R.string.cafeBarOrange,R.string.cafeBarOrangeText,R.string.cafeBarOrangeAddress,R.string.cafeBarOrangeWeb));
-        places.add(new Place(R.drawable.ppc_nightlife,R.string.ppc,R.string.ppcText,R.string.ppcAddress,R.string.ppcWeb));
+        places.add(new Place(R.drawable.threemonkeys_bar, R.string.threeMonkeys, R.string.threeMonkeysText, R.string.threeMonkeysAddress, R.string.threeMonkeysWeb));
+        places.add(new Place(R.drawable.cafebarorange_nightlife, R.string.cafeBarOrange, R.string.cafeBarOrangeText, R.string.cafeBarOrangeAddress, R.string.cafeBarOrangeWeb));
+        places.add(new Place(R.drawable.ppc_nightlife, R.string.ppc, R.string.ppcText, R.string.ppcAddress, R.string.ppcWeb));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.listBackground);
 

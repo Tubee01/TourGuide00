@@ -28,18 +28,29 @@ public class Place {
     }
 
 
-    public  int getInfo() {
-        return  mInfo;
+    public int getInfo() {
+        return mInfo;
     }
-    public  int getName(){
-        return  mName;
+
+    public int getName() {
+        return mName;
     }
-    public  int getmAddress() { return mAddress;}
-    public  int getmWebsite() { return  mWebsite;}
-    public boolean hasImage(){
+
+    public int getmAddress() {
+        return mAddress;
+    }
+
+    public int getmWebsite() {
+        return mWebsite;
+    }
+
+    public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
-    public int getImageResourceId() { return mImageResourceId; }
+
+    public int getImageResourceId() {
+        return mImageResourceId;
+    }
 }
 
 
