@@ -10,9 +10,9 @@
 
     <!-- Places -->
     <string name="murinsel">Murinsel</string>
-    <string name="murinselText"> The New York artist Vito Acconci designed a steel grid structure in the shape of a half-opened shell.
-        The open part – an amphitheatre for performances but also a resting place for sun-seekers.
-        The covered part – a very trendy café. </string>
+    <string name="murinselText"> Vito Acconci designed a steel grid structure in the shape of a half-opened shell.
+        The open part an amphitheatre for performances but also a resting place for sun-seekers.
+        The covered part a very trendy café. </string>
     <string name="murinselAddress">Mur 1</string>
    <string name="murinselWeb">www.murinselgraz.at</string>
     <string name="kunsthaus">Armoury Museum and Kunsthaus</string>
@@ -71,6 +71,6 @@
     <string name="palaisHotel">Palais Hotel Erzherzog Johann</string>
     <string name="palaisHotelAddress">Sackstrasse 3-5</string>
     <string name="palaisHotelWeb">www.erzherzog-johann.com</string>
-    <string name="palaisText">This hotel offers 150 years of tradition. The hotel combines style, ease and comfort reflected in the individually arranged rooms and suites of the former baroque palace</string>
+    <string name="palaisText">This hotel offers 150 years of tradition. The hotel combines style, ease and comfort reflected in the individually arranged rooms and suites of the former baroque palace.</string>
 
 </resources>

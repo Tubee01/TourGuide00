@@ -24,7 +24,7 @@
         <TextView
             android:id="@+id/name_text_view"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:gravity="bottom"
@@ -35,8 +35,8 @@
 
         <TextView
             android:id="@+id/default_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_below="@id/name_text_view"
             android:gravity="top"
             android:textColor="@android:color/white"
