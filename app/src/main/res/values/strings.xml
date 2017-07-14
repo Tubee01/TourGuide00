@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">Graz Tour Guide</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Do_and_see">Do and See</string>
     <string name="dining">Dining</string>
     <string name="bars_nightlife">Bars and Nightlife</string>
